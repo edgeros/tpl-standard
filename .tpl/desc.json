@@ -1,5 +1,5 @@
 {
-  "name": "tpl-tape",
-  "description": "Very basic and simple project template",
+  "name": "tpl-standard",
+  "description": "Standard project with test case and standardjs code style",
   "type": "Base"
 }
