@@ -2,7 +2,7 @@
   "name": "com.example.default",
   "version": "0.0.1",
   "description": "",
-  "repository": "https://github.com/edgeros/tpl-tape.git",
+  "repository": "https://github.com/edgeros/tpl-standard.git",
   "main": "main.js",
   "scripts": {
     "build": "eos build"
