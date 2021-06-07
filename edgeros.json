@@ -1,12 +1,13 @@
 {
-    "name":"default",
+    "name": "default",
     "bundleid": "com.example.myapp",
-    "test":"test/index.js",
+    "test": "test/index.js",
     "ignore_modules": [
         "@edgeros/eslint-plugin-jsre",
         "@edgeros/jsre-types"
     ],
     "ignore_path": [
+        "./.tpl/**",
         "./temp/*"
     ],
     "assets": {
