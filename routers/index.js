@@ -9,12 +9,12 @@
  * Author: Li.Ping <liping@acoinfo.com>
  *
  */
-const WebApp = require('webapp');
-const Router = WebApp.Router;
-const router = Router.create();
+const WebApp = require('webapp')
+const Router = WebApp.Router
+const router = Router.create()
 
 router.get('/', function (req, res) {
-	res.send('<div style="color:#fff">Hello world</div>')
+  res.send('<div style="color:#fff">Hello world</div>')
 })
 
 module.exports = router

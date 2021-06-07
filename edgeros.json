@@ -7,7 +7,6 @@
         "@edgeros/jsre-types"
     ],
     "ignore_path": [
-        "./test/**",
         "./temp/*"
     ],
     "assets": {

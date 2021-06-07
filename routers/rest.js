@@ -10,15 +10,15 @@
  *
  */
 
-const Router = require('webapp').Router;
+const Router = require('webapp').Router
 
 /* Create router */
-const router = Router.create();
+const router = Router.create()
 
 /* Test call */
-router.get('/test', function(req, res) {
-	res.send('Hello world!');
-});
+router.get('/test', function (req, res) {
+  res.send('Hello world!')
+})
 
 /* Export router */
-module.exports = router;
+module.exports = router
