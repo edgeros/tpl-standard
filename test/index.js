@@ -4,6 +4,7 @@ tape('test', function (t) {
   const start = Date.now()
   setTimeout(function () {
     console.log('runing test', `test cost: ${Date.now() - start}`)
+    t.pass()
     t.end()
   }, 100)
 })
